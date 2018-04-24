@@ -1,0 +1,15 @@
+
+.btn{
+  margin: 5px 5px 0 0;
+}
+
+.gif{
+  /* display: inline-block; position: relative; */
+ height: 190px;
+
+  padding: 0 10px 10px 0;
+}
+
+.image{
+  float: left;
+}
