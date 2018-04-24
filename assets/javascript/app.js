@@ -27,7 +27,7 @@ $( document ).ready(function() {
 
     var gifID = $(this).attr("data-name");
 
-    var queryURL = ("http://api.giphy.com/v1/gifs/search?q=" + gifID + "&api_key=dc6zaTOxFJmzC&limit=10");
+    var queryURL = ("https://api.giphy.com/v1/gifs/search?q=" + gifID + "&api_key=dc6zaTOxFJmzC&limit=10");
 
     // Creates AJAX call for the specific topic button being clicked
     $.ajax({
